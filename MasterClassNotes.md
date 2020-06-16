@@ -32,5 +32,8 @@ public class  Hello {
 }
 ```
 
+**Main method**: Es el punto de entrada de todo programa de java. java busca ese método para correr el programa.
 
+**{}**: En los metodos se conoce como Code block y define el bloque del metodo.
 
+**Statement**: Comando completo para ser ejecutado construido con uno o varias expresiones. 
