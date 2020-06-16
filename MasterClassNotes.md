@@ -11,11 +11,18 @@ En intellij click on configure - structure for new projects.
 
 Seleccionar Project, si no hay SDK darle en New y asociarlo con la carpeta donde se guardo el programa SDK en tu operation system
 
-Luego ir a configuration, settings. - Editor - General - Autoimport
+Luego ir a configuration -> settings. -> Editor -> General -> Autoimport:
 
-seleccionar [] add ambiguos imports on the fly : [] Optimize imports on the fly.
+seleccionar:
 
-Code Folding - Deseleccionar : [] imports; []One-line-methods; []"Clousures"; [] Generic Constructure.
+[X] add ambiguos imports on the fly
+[X] Optimize imports on the fly.
+
+Code Folding - Deseleccionar:
+[ ] imports;
+[ ] One-line-methods;
+[ ] "Clousures";
+[ ] Generic Constructure.
 
 En la estructura básica al crear un programa de java se usan las siguientes keywords.
 
