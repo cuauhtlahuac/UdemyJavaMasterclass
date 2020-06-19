@@ -11,18 +11,24 @@ En intellij click on configure - structure for new projects.
 
 Seleccionar Project, si no hay SDK darle en New y asociarlo con la carpeta donde se guardo el programa SDK en tu operation system
 
-Luego ir a configuration -> settings. -> Editor -> General -> Autoimport:
+Luego en pantalla de inicio dar click en configuración -> Structure for new projects (Click in project) -> Cambiar no SDK por la versión de Java que amos a usar, si no aparece -> (click on new) -> buscar el folder de instalación. -> (Click on SDK) -> cambiar el name
 
-seleccionar:
+Luego ir nuevamente en la pantalla de inicio a configuration -> settings (preference on MAC) -> Editor -> General -> Autoimport y seleccionar (check on):
 
 [X] add ambiguos imports on the fly
 [X] Optimize imports on the fly.
 
-Code Folding - Deseleccionar:
+En la misma pestaña general ( click on ) Code Folding y Deseleccionar:
 [ ] imports;
 [ ] One-line-methods;
 [ ] "Clousures";
 [ ] Generic Constructure.
+
+Fin de configuración.
+---------------------
+### Introducción Hello World.
+
+
 
 En la estructura básica al crear un programa de java se usan las siguientes keywords.
 
@@ -44,3 +50,24 @@ public class  Hello {
 **{}**: En los metodos se conoce como Code block y define el bloque del metodo.
 
 **Statement**: Comando completo para ser ejecutado construido con uno o varias expresiones. 
+
+### Data Types.
+
+Data types are Keywords in Java.
+
+To define variable Define Data type + name + Asign(=) + value;
+
+### Declaration Statement.
+
+Used to define a ariable by indicting the data type, and the name, and optionally to set the variable to certain value.
+
+### Expresion.
+
+This is a construct that evaluates to a single value;
+
+#### TIP:
+SOUT in intellij is a short cut to System.out....
+
+### Operators.
+
+Perform Operations: `+ - / *`
