@@ -86,3 +86,14 @@ If you try to assign a superior value than the maximum or minimum of an integer 
 When you try to add or subtract the number one, the hole number pass to be the oposite sign doubt the overflow or Underflow.
 
 We can use underscore in numbers to do it more readable 2_147_483_647 (Apply in java versions over 6);
+
+#### Byte and Short
+
+Byte has a range of - 128 to 127. It was for optimization reasons but in this days the computers can manage complex memory sizes.
+
+Byte in memory occupies 8 bits.
+Short occupies 16 bits.
+Integer occupies 32 bits.
+Long occupies 64 bits!
+
+Different data types using different size of memory.
