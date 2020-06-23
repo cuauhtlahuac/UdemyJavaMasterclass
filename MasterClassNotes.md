@@ -71,3 +71,18 @@ SOUT in intellij is a short cut to System.out....
 ### Operators.
 
 Perform Operations: `+ - / *`
+
+### Primitive Types.
+
+eight primitive data types:
+`boolean, byte, chart, short, int, long, float, double`
+
+#### INT
+
+The max value of integer is 2147483647
+The minimum value of integer is -2147483648
+If you try to assign a superior value than the maximum or minimum of an integer it will cause an error;
+
+When you try to add or subtract the number one, the hole number pass to be the oposite sign doubt the overflow or Underflow.
+
+We can use underscore in numbers to do it more readable 2_147_483_647 (Apply in java versions over 6);
