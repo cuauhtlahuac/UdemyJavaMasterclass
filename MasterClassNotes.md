@@ -97,3 +97,11 @@ Integer occupies 32 bits.
 Long occupies 64 bits!
 
 Different data types using different size of memory.
+
+### Casting in Java
+
+Cast means to treat or convert a number from one type to another. We put the type we want the number to be in parenthesis like this:
+
+```java 
+(byte)(myMinByteValue / 2);
+```

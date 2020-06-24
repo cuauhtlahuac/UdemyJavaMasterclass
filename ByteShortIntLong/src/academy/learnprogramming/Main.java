@@ -33,5 +33,8 @@ public class Main {
         // ...if you don't specify the long value with the "L" word at the end;
         long overIntMaxValue = 2_147_483_647_265L; // It has a long key word and "L"w word at the end of the number
         System.out.println(overIntMaxValue);
+
+        // Casting, means transform the type of a number
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
     }
 }
