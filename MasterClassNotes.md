@@ -105,3 +105,18 @@ Cast means to treat or convert a number from one type to another. We put the typ
 ```java 
 (byte)(myMinByteValue / 2);
 ```
+
+### Float and Double.
+
+Float is a number with decimal point -> 3.14159
+32 bits _ Single precision _ Range: 1.aE-45 to 3.4028234E+38
+64 bits _ Double precision _ Range: 4.9E-324 to 1.7976931348623157E+308 (Much precise)
+
+```java
+ float myFloatValue = 5f; // you can put the f  or
+ float myFloatValue = (float) 5; // write the casting word
+```
+The "f" word tells to java that it's a float number no matter the value in it.
+```java
+Double myDoubleValue = 6.765; // By default the decimal numbers are doubles
+ ```
