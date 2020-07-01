@@ -24,9 +24,9 @@ public class Main {
         System.out.println("my Double number: " + myDoubleValue);
 
         /* Continues with the examples */
-        int myIntNumber = 5 / 2; // int number don't include float point
-        float MyFloatNumber = 5f / 2f;
-        double myDoubleNumber = 5d / 2; // notice that I don't include the d word but still works, the problem is the result will be less precisely
+        int myIntNumber = 5 / 3; // int number don't include float point
+        float MyFloatNumber = 5f / 3f;
+        double myDoubleNumber = 5d / 3d; // Is good practice added the type wih the character d, f, etc.
         System.out.println("myIntNumber: " + myIntNumber );
         System.out.println("MyFloatNumber: " + MyFloatNumber );
         System.out.println("myDoubleNumber: " + myDoubleNumber );
