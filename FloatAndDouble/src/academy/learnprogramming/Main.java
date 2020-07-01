@@ -1,5 +1,8 @@
 package academy.learnprogramming;
 
+import javax.sound.midi.Soundbank;
+import java.net.SocketTimeoutException;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,6 +22,15 @@ public class Main {
         System.out.println("my int value: ".concat(String.valueOf(myIntValue)));
         System.out.println("my Float number: " + myFloatValue);
         System.out.println("my Double number: " + myDoubleValue);
+
+        /* Continues with the examples */
+        int myIntNumber = 5 / 2; // int number don't include float point
+        float MyFloatNumber = 5f / 2f;
+        double myDoubleNumber = 5d / 2; // notice that I don't include the d word but still works, the problem is the result will be less precisely
+        System.out.println("myIntNumber: " + myIntNumber );
+        System.out.println("MyFloatNumber: " + MyFloatNumber );
+        System.out.println("myDoubleNumber: " + myDoubleNumber );
+
     }
 }
 
