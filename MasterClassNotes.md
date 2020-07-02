@@ -120,3 +120,17 @@ The "f" word tells to java that it's a float number no matter the value in it.
 ```java
 Double myDoubleValue = 6.765; // By default the decimal numbers are doubles
  ```
+
+### Char
+
+Only store one character more info in [🌎 unicode](https://unicode-table.com/) "U+0032"
+
+Based in unicode, and take only two bytes. .😀.
+
+### Boolean
+
+Is a yes or no, 1 or 0, show or hide. ● ⦿
+
+Only can store two values.
+
+
