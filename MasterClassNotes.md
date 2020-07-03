@@ -133,4 +133,13 @@ Is a yes or no, 1 or 0, show or hide. ● ⦿
 
 Only can store two values.
 
+### Strings
+
+Is not a primitive type, is a DATATYPE, it's actually a Class with a bit of favoritism.
+
+Contains a sequence of characters.
+
+Strings in Java are immutable. You can't change a String after it's created, instead, what happens is a new String is created.
+
+
 
