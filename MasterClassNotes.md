@@ -141,5 +141,15 @@ Contains a sequence of characters.
 
 Strings in Java are immutable. You can't change a String after it's created, instead, what happens is a new String is created.
 
+### Operators and operand
+
+Operator: Special Symbols.
+
+Operand: any object that is maipulated by the operator.
+
+Expression: formed by combining variables, literals, returns and operators.
+
+int myValue = **[ 15 + 12 ]** _expression_
+
 
 
