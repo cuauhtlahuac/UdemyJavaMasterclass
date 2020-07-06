@@ -14,5 +14,12 @@ public class Main {
         System.out.println("PreviousResult = " + previousResult); // the pointer of previousResult is different to result
 
         result = ( int ) 1.0 - 1; // Can change to a new value but not to a new type
+
+        // Abbreviating Operators
+
+        result ++; //  add one, works equals with --
+        result += 2; // two add a custom number to result, and can use an other operator.
+
+        System.out.println("Result: " + result);
     }
 }
