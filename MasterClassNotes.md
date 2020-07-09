@@ -151,5 +151,10 @@ Expression: formed by combining variables, literals, returns and operators.
 
 int myValue = **[ 15 + 12 ]** _expression_
 
+### If Statement
 
+Basic structure
+```if(boolean validation){ // code to execute }```
 
+&& => And operator
+|| => Or Operator
