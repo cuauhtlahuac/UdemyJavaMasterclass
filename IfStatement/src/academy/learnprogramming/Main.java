@@ -9,6 +9,7 @@ public class Main {
              System.out.println("And I´m scared of aliens");
          }
         AndOperator();
+        TernaryOperator();
     }
     public static void AndOperator (){
         // one billion 1,000,000,000
@@ -23,6 +24,17 @@ public class Main {
         if ( (Chabelo > Universe) && (Universe > MyGrandPa) ){
             System.out.println("Chabelo is a little old than the universe, that is True, not fake");
         }
+    }
+
+    public static void TernaryOperator (){
+        boolean isRed = false;
+        boolean isColor = isRed ? true : false;
+        if(isColor){
+            System.out.println("isColor");
+        }else{
+            System.out.println("is not a color");
+        }
+
     }
 }
 
