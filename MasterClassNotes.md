@@ -63,9 +63,11 @@ To define variable Define Data type + name + Asign(=) + value;
 
 Used to define a ariable by indicting the data type, and the name, and optionally to set the variable to certain value.
 
-### Expresion.
+### Expression.
 
 This is a construct that evaluates to a single value;
+Is a building block;
+Are variables, operators, values, typically a line of code before the semicolon
 
 #### TIP:
 SOUT in intellij is a short cut to System.out....
