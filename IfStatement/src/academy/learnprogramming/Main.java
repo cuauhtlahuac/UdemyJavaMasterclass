@@ -10,14 +10,16 @@ public class Main {
         }
 
         // Usando datos en duro
-        calculateScore(true, 800, 5, 100);
+        int finalScore = calculateScore(false, 800, 5, 100);
+        System.out.println("First Final Score is " + finalScore);
 
         boolean gameOver = true;
         int score = 1000;
         int levelCompleted = 5;
         int bonus = 300;
         // Usando datos de las variables
-        calculateScore( gameOver, score, levelCompleted, bonus);
+        finalScore = calculateScore( gameOver, score, levelCompleted, bonus);
+        System.out.println("Second Final Score is " + finalScore);
 
         AndOperator();
 
@@ -52,13 +54,15 @@ public class Main {
     }
 
     // this method will return data, must be change void keyword for the data type of the returned value
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 1000;
             System.out.println("Your final score was " + finalScore);
+            return finalScore;
         }
+        return -1;
 
     }
 }
